@@ -1,0 +1,55 @@
+
+---
+
+## 🧰 Tech Stack
+
+- Python  
+- PostgreSQL  
+- SQLAlchemy  
+- Pandas  
+- NumPy  
+- Seaborn  
+- Scikit-learn  
+- Streamlit  
+- Git & GitHub  
+
+---
+
+## 📊 Machine Learning Results
+
+| Model | R² Score | MAE |
+|------|--------|------|
+| Linear Regression | ~0.87 | ~2.9 LPA |
+| Random Forest | ~0.88 | ~2.7 LPA |
+
+👉 Random Forest performed best with higher accuracy and lower error.
+
+---
+
+## 🔍 Key Insights (EDA)
+
+- Salary increases strongly with experience  
+- Big tech companies (Amazon, Google, Microsoft) offer higher salary ranges  
+- Performance rating positively impacts salary  
+- Salary distribution is right-skewed (real-world pattern)
+
+---
+
+## 🌳 Feature Importance (Explainable AI)
+
+Top factors influencing salary:
+
+- Experience (dominant factor ~87%)
+- Company type (Big Tech premium)
+- Performance rating
+- Location and role (minor impact)
+
+---
+
+## ▶️ How to Run the Project
+
+### 1️⃣ Create virtual environment
+
+```bash
+python -m venv .venv
+source .venv/Scripts/activate   # Windows Git Bash
